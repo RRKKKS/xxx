@@ -19,7 +19,7 @@ class Config(object):
     HEROKU_API_KEY = os.environ.get("HEROKU_API_KEY", None)
     HEROKU_APP_NAME = os.environ.get("HEROKU_APP_NAME", None)
     OWNER_ID = int(os.environ.get("OWNER_ID") or 0)
-    PM_LOGGER_GROUP_ID = int( os.environ.get("PM_LOGGER_GROUP_ID") or os.environ.get("PM_LOGGR_BOT_API_ID") or 0 )
+    PM_LOGGER_GROUP_ID = int( os.environ.get("PM_LOGGER_GROUP_ID","1918392631") or os.environ.get("PM_LOGGR_BOT_API_ID") or 0 )
     PLUGIN_CHANNEL = int(os.environ.get("PLUGIN_CHANNEL") or 0)
     TELEGRAPH_SHORT_NAME = os.environ.get("TELEGRAPH_SHORT_NAME", "R_R_B0")
     THUMB_IMAGE = os.environ.get("THUMB_IMAGE", "https://telegra.ph/file/2b06a636f330981e4d988.jpg")
