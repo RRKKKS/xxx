@@ -1,7 +1,6 @@
-FROM telethonArab/IqArab:slim-buster
+FROM RRKKKS/xxx:slim-buster
 
-RUN git clone https://github.com/telethonArab/iqthon.git /root/IqArab
-
+RUN git clone https://github.com/RRKKKS/xxx.git /root/IqArab
 WORKDIR /root/IqArab
 
 RUN pip3 install --no-cache-dir -r requirements.txt
