@@ -11,7 +11,7 @@ class Config(object):
     TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN") or os.environ.get("TG_BOT_TOKEN_BF_HER", None)
     TG_BOT_USERNAME = None
     TZ = os.environ.get("TZ", "Asia/Baghdad")
-    UPSTREAM_REPO = os.environ.get("UPSTREAM_REPO", "https://github.com/telethonArab/telethonAr1")
+    UPSTREAM_REPO = os.environ.get("UPSTREAM_REPO", "https://github.com/RRKKKS/xxx")
     AUTONAME = os.environ.get("AUTONAME", "@R_R_B0")
     PRIVATE_GROUP_BOT_API_ID = int(os.environ.get("PRIVATE_GROUP_BOT_API_ID") or 0)
     PRIVATE_GROUP_ID = int(os.environ.get("PRIVATE_GROUP_ID") or 0)
