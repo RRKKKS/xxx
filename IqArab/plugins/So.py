@@ -124,12 +124,12 @@ async def iq(iqthonevent):
             return await edit_or_reply(iqevent)
     else:
         await edit_or_reply(iqevent,caption)
-fahs = """‎⿻┊My 𖠄 {my_mention} ٫
+fahs = """‎┊My {my_mention} ٫
 ‌‎┊𝐘𝐨𝐮𝐫 𝐁𝐨𝐭 : {tg_bot} ٫
 ‌‎┊𝐓𝐈𝐌𝐄 : {TM} ٫
 ‌‎┊𝐔𝐏 𝐓𝐈𝐌𝐄 : {uptime} ٫
 ‌‎┊‌𝐏𝐈𝐍𝐆 :{ping} ٫
-‌‎┊‌𝐕𝐞𝐫𝐬𝐢𝐨𝐧 𝐕𝟏  ,
+‌‎┊‌𝐕𝐞𝐫𝐬𝐢𝐨𝐧 𝐕𝟏 ,
 ‌‎┊𝐖𝐞𝐥𝐜𝐨𝐦𝐞 𝐢𝐧 𝐍𝐞𝐨𝐧 """
 
 @iqthon.on(admin_cmd(pattern="حساب كيثاب( -l(\d+))? ([\s\S]*)"))    
